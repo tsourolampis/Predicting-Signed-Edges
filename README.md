@@ -6,13 +6,13 @@ This notebook contains results from the work <span style="color:red">Predicting 
 - **Michael Mitzenmacher** (*Harvard University*) 
 - **Jaroslaw Blasiok** (*Harvard University*) 
 - **Ben Lawson** (*Boston University*) 
-- ** Preetum Nakkira ** (*Harvard University*) 
+- **Preetum Nakkira** (*Harvard University*) 
 - **Vasileios Nakos** (*Harvard University*)
 
 ##  <center><span style="color:green">Feature construction </span></center>
 
 The file *Constructing features.ipynb* demonstrates the construction of 
-features used to predict the sign of an edge. The features we use include (a) the features proposed by [Leskovec et al](https://www.cs.cornell.edu/home/kleinber/www10-signed.pdf), (b) and the number of (positive, negative)$\times$ paths of length 3 and 4 respectively. Therefore, we add 4 new features. This notebook shows a quick implementation. We use the [Highland tribes](http://konect.uni-koblenz.de/networks/ucidata-gama) dataset from KONECT.  
+features used to predict the sign of an edge. The features we use include (a) the features proposed by [Leskovec et al](https://www.cs.cornell.edu/home/kleinber/www10-signed.pdf), (b) and the number of (positive, negative)x paths of length 3 and 4 respectively. Therefore, we add 4 new features. This notebook shows a quick implementation. We use the [Highland tribes](http://konect.uni-koblenz.de/networks/ucidata-gama) dataset from KONECT.  
 
 ##  <center><span style="color:green"> Sign Prediction </span></center>
 
