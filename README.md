@@ -16,4 +16,4 @@ features used to predict the sign of an edge. The features we use include (a) th
 
 ##  <center><span style="color:green"> Sign Prediction </span></center>
 
-In *Predicting Signed Edges.ipynb* we analyze the slashdot, and the wikipedia datasets from SNAP. We train a logistic regression classifer using stratified 10-fold cross-validation. We observe that paths are a very informative features, as our theoretical analysis justifies under certain probabilistic assumption. 
+In *Prediction.ipynb* we analyze the signedd Wikipedia dataset from SNAP. We train a logistic regression classifer using stratified 10-fold cross-validation. We observe that paths of short length an informative feature.
